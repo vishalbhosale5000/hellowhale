@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/vishal5000/hellowhale.git', branch:'master'
+        git url:'https://github.com/vishalbhosale5000/hellowhale.git', branch:'master'
       }
     }
     
