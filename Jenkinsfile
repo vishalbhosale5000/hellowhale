@@ -6,14 +6,14 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/vishalbhosale5000/hellowhale.git', branch:'master'
+        git url:'https://github.com/vishal5000/hellowhale.git', branch:'master'
       }
     }
     
       stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("vishalbhosale5000/hellowhale:${env.BUILD_ID}")
+                    myapp = docker.build("vishal5000/hellowhale:${env.BUILD_ID}")
                 }
             }
         }
