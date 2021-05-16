@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: hello-whale-container
-        image: vishalbhosale5000/hellowhale:latest
+        image: vishal5000/hellowhale:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
